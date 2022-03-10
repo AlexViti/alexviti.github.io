@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Hello World
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>FontIcons</title>
+
+	<!-- Font Awesome CDN -->
+	<link id= "font-awesome-CDN" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<!-- CSS Style -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- White background header with title -->
+	<header>
+		<!-- Turquoise title with different font -->
+		<h1>FontIcons</h1>
+	</header>
+
+	<!-- Turquoise background navbar with filter select -->
+	<nav>
+		<label for="font-awesome">Font Awesome CDN</label>
+		<select name="font-awesome" id="font-awesome"></select>
+		<label for="filter">Filter for type</label>
+		<select name="filter" id="filter"></select>
+		<label for="colors">Choose colors</label>
+		<select name="colors" id="colors"></select>
+	</nav>
+
+	<!-- Gray background main -->
+	<main>
+		<!-- Icon card container -->
+		<div class="card-container"></div>
+	</main>
+
+	<!-- Icons data array -->
+	<script src="js/data.js"></script>
+	<!-- JS main script -->
+	<script src="js/script.js"></script>
+</body>
+
 </html>
